@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#777"
+    android:orientation="vertical"
+    tools:context=".SimulationActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:text="STOP"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_30"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_40"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_50"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_60"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_70"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_80"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_90"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_31"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_41"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_51"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_61"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_71"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_81"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_91"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_32"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_42"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_52"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_62"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_72"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_82"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_92"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_23"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_33"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_43"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_53"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_63"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_73"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_83"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_93"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_04"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_24"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_34"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_44"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_54"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_64"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_74"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_84"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_94"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_05"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_35"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_45"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_55"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_65"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_75"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_85"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_95"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_06"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_16"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_26"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_36"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_46"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_56"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_66"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_76"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_86"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_96"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_07"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_17"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_27"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_37"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_47"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_57"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_67"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_77"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_87"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_97"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_08"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_18"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_28"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_38"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_48"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_58"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_68"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_78"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_88"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_98"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_09"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_19"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_29"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_39"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_49"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_59"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_69"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_79"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_89"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+        <com.jonathonclifford.conwaysgameoflife.Classes.SimCell
+            android:id="@+id/sim_cell_99"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="1dp">
+        </com.jonathonclifford.conwaysgameoflife.Classes.SimCell>
+
+    </LinearLayout>
+
+</LinearLayout>
